@@ -42,4 +42,4 @@ jobs:
           command: npm run ci:frontend:test
       - run:
           name: Deploy to Heroku
-          command: './gradlew deployHeroku --no-daemon'
+          command: './gradlew build deployHeroku --no-daemon'
